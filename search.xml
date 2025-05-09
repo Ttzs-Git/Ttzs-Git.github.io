@@ -18,7 +18,8 @@
 <li>两个题解都是用数组写的</li>
 <li>题解2:EOF对HDU 2003挺重要的</li>
 </ul>
-<h3 id="HDU-2001"><a href="#HDU-2001" class="headerlink" title="HDU 2001"></a>HDU 2001</h3><p>我的代码主要使用vector和sqrt写的</p>
+<h3 id="HDU-2001"><a href="#HDU-2001" class="headerlink" title="HDU 2001"></a>HDU 2001</h3><p>我的代码主要使用vector和sqrt写的，</p>
+<p>本题的关键点:<strong>题目中提示四个实数</strong></p>
 <ul>
 <li><p>题解1: 使用的cin&gt;&gt;a&gt;&gt;b&gt;&gt;c&gt;&gt;d—-这让我思考一个问题;<strong>是否全部的输入结束以后才能开始输出？</strong></p>
 </li>
@@ -27,22 +28,106 @@
 <li><p>小数点后的位数使用printf的格式化控制比较简单</p>
 </li>
 </ul>
-<h3 id="HDU-2002"><a href="#HDU-2002" class="headerlink" title="HDU 2002"></a>HDU 2002</h3><p>注意:</p>
+<h3 id="HDU-2002"><a href="#HDU-2002" class="headerlink" title="HDU 2002"></a>HDU 2002</h3><p>本题的关键: <strong>整数整除和float，double的测试</strong></p>
+<p>注意:</p>
 <ul>
 <li>4&#x2F;3&#x3D;1;—给忘记了</li>
 </ul>
 <h3 id="HDU-2003"><a href="#HDU-2003" class="headerlink" title="HDU 2003"></a>HDU 2003</h3><ul>
 <li>题解一: 提醒使用abs函数</li>
 </ul>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><h3 id="可控输入"><a href="#可控输入" class="headerlink" title="可控输入"></a>可控输入</h3><ul>
+<h3 id="HDU-2004"><a href="#HDU-2004" class="headerlink" title="HDU 2004"></a>HDU 2004</h3><ul>
+<li>题解二: 字符数组挺不错的，可以代替冗长的switch</li>
+</ul>
+<h3 id="HDU-2005"><a href="#HDU-2005" class="headerlink" title="HDU 2005"></a>HDU 2005</h3><ul>
+<li>题解一二: 冗长的switch可以使用数组代替</li>
+</ul>
+<h3 id="HDU-2006"><a href="#HDU-2006" class="headerlink" title="HDU 2006"></a>HDU 2006</h3><ul>
+<li>题解一:使用num&amp;1判断奇数</li>
+</ul>
+<h3 id="HDU-2007"><a href="#HDU-2007" class="headerlink" title="HDU 2007"></a>HDU 2007</h3><p>由于没有评测机，所以只能使用样例。发现自己忽略了x和y的大小关系</p>
+<ul>
+<li>题解一:使用swap</li>
+</ul>
+<h3 id="HDU-2008"><a href="#HDU-2008" class="headerlink" title="HDU 2008"></a>HDU 2008</h3><ul>
+<li>题解一: #include&lt;bits&#x2F;stdc++.h&gt;</li>
+<li>题解二: 将t&#x3D;&#x3D;0的判断放到while中</li>
+</ul>
+<h3 id="HDU-2012"><a href="#HDU-2012" class="headerlink" title="HDU 2012"></a>HDU 2012</h3><ul>
+<li>题解一: !(x&#x3D;=0&amp;&amp;y&#x3D;&#x3D;0)等价于x!&#x3D;0||y!&#x3D;0</li>
+</ul>
+<h3 id="HDU-2014"><a href="#HDU-2014" class="headerlink" title="HDU 2014"></a>HDU 2014</h3><p>我的思路简单: 先输入数据，然后排序，然后计算</p>
+<ul>
+<li>题解二: 找出最大值和最小值</li>
+</ul>
+<h3 id="HDU-2015"><a href="#HDU-2015" class="headerlink" title="HDU 2015"></a>HDU 2015</h3><p>推荐题解一的代码更加简洁明了。两份题解对我的起始，不要一味最求生成向量–计算–输出的思路。同时，生成的的代码也较复杂。复现题解一</p>
+<h3 id="HDU-2018"><a href="#HDU-2018" class="headerlink" title="HDU 2018"></a>HDU 2018</h3><p>我的题解是使用递归写的，n&lt;&#x3D;4,输出原值，n&gt;5，递归</p>
+<ul>
+<li>题解1: 把n&lt;56的全部存到一个数组中，当n较大时，递归可能会太深</li>
+<li>题解2: 不储存数据的迭代</li>
+</ul>
+<h3 id="HDU-2019"><a href="#HDU-2019" class="headerlink" title="HDU 2019"></a>HDU 2019</h3><p>0x3f3f3f3f-表示无穷大的数,凄凉被不超过int</p>
+<ul>
+<li>题解1: 使用m-无穷大,类似于标签—我改变了一下，在仓库中</li>
+</ul>
+<p>它的题解的输入和输出如下时，无法通过<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="D:\github\Ttzs-Git.github.io\source_posts\pi.asserts\image-20250509232346551.png"
+                      alt="image-20250509232346551"
+                ></p>
+<p>但是HDU oj中没有这个案例，是不是不需要考虑这种情况？</p>
+<h3 id="HDU-2020"><a href="#HDU-2020" class="headerlink" title="HDU 2020"></a>HDU 2020</h3><ul>
+<li>题解12:提醒sort(…,cmp)自定义部分</li>
+</ul>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
+<li>可控输入</li>
+</ol>
+<ul>
 <li><p>cin&gt;&gt;a</p>
 </li>
 <li><p>scanf(“…”)&#x3D;&#x3D;EOF</p>
 </li>
 </ul>
+<ol start="2">
+<li>printf和cout</li>
+</ol>
+<ul>
+<li>printf:非常适合指定小数点后位数的输出</li>
+<li>cout:非常合适简单的输出</li>
+</ul>
+<ol start="3">
+<li>cin和scanf</li>
+</ol>
+<ul>
+<li>cin:非常适合简单的输入，作为while的输入</li>
+<li>scanf:非常适合有指定格式的输入</li>
+</ul>
 ]]></content>
       <tags>
         <tag>算法刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>how to study 1</title>
+    <url>/2025/03/26/how-to-study-1/</url>
+    <content><![CDATA[<p>Actually,I don’t know how to study. When I study CS61A and meet some problems which I can’t solve it quickly, I will feel irritable. Perhaps for my characters, it is quick to study from 0 to 1 due to interest. But, the subsequent courses are difficult and hard to stay clam to study them. </p>
+<p>So, I determined to change it by some ways and write here to be a reminder for me.</p>
+<ul>
+<li><p>First of all ,i shouldn’t care too much about whether to learn all the courses for perfectionism and choose what is suitable for me. <strong>What matters is that learn the knowledge all not the courses all</strong> .</p>
+</li>
+<li><p>Secondly,to improve the efficiency of learning , <strong>read the preview materials</strong> before studying specially the CS. If I can <strong>finish the homework or lab</strong> <strong>or discussion well</strong>, it means I can skip this lesson. If it is hard for me to read it ,why not listen to it obediently?</p>
+</li>
+<li><p>Thirdly, how to learn by book ,read it ,rewrite the codes,try to change it ,and finally finish the practices.</p>
+</li>
+</ul>
+<p>Someone perhaps ask me if i still be unknown to this knowledge after learning the course. It is useful for us to ask GAI like QwQ and so on.</p>
+<p>It is a good choice to select a major course until you learn it down.</p>
+<p>Hope you and me have a good studying experience.</p>
+<p>Good luck! </p>
+]]></content>
+      <tags>
+        <tag>Misc-talk</tag>
       </tags>
   </entry>
   <entry>
@@ -78,28 +163,6 @@
 ]]></content>
       <tags>
         <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>how to study 1</title>
-    <url>/2025/03/26/how-to-study-1/</url>
-    <content><![CDATA[<p>Actually,I don’t know how to study. When I study CS61A and meet some problems which I can’t solve it quickly, I will feel irritable. Perhaps for my characters, it is quick to study from 0 to 1 due to interest. But, the subsequent courses are difficult and hard to stay clam to study them. </p>
-<p>So, I determined to change it by some ways and write here to be a reminder for me.</p>
-<ul>
-<li><p>First of all ,i shouldn’t care too much about whether to learn all the courses for perfectionism and choose what is suitable for me. <strong>What matters is that learn the knowledge all not the courses all</strong> .</p>
-</li>
-<li><p>Secondly,to improve the efficiency of learning , <strong>read the preview materials</strong> before studying specially the CS. If I can <strong>finish the homework or lab</strong> <strong>or discussion well</strong>, it means I can skip this lesson. If it is hard for me to read it ,why not listen to it obediently?</p>
-</li>
-<li><p>Thirdly, how to learn by book ,read it ,rewrite the codes,try to change it ,and finally finish the practices.</p>
-</li>
-</ul>
-<p>Someone perhaps ask me if i still be unknown to this knowledge after learning the course. It is useful for us to ask GAI like QwQ and so on.</p>
-<p>It is a good choice to select a major course until you learn it down.</p>
-<p>Hope you and me have a good studying experience.</p>
-<p>Good luck! </p>
-]]></content>
-      <tags>
-        <tag>Misc-talk</tag>
       </tags>
   </entry>
   <entry>
