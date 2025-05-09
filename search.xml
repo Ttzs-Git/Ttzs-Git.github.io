@@ -7,7 +7,7 @@
 <p>刷HDU的2000-2099 检测一下C++的情况</p>
 <p>每天**1.5h(3~4题)**的刷题,以及不限制限制时间的反思</p>
 <p><strong>半个小时，不会就跳</strong></p>
-<p><strong>我的代码仓库:<a class="link"   href="https://github.com/Ttzs-Git/learning-logs/learning-CPP-language/cpp-algo" >https://github.com/Ttzs-Git/learning-logs/learning-CPP-language/cpp-algo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></strong></p>
+<p><strong>我的代码仓库:<a class="link"   href="https://github.com/Ttzs-Git/learning-logs/" >https://github.com/Ttzs-Git/learning-logs/<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></strong></p>
 <h2 id="可能常用网站"><a href="#可能常用网站" class="headerlink" title="可能常用网站"></a>可能常用网站</h2><p><a class="link"   href="https://acm.hdu.edu.cn/listproblem.php?vol=11" >HDU OJ<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 <p><a class="link"   href="https://blog.csdn.net/m0_62434776/article/details/125602451" >题解1<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 <p><a class="link"   href="https://blog.csdn.net/qq_38687678/article/details/83012480" >题解2<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
@@ -42,34 +42,6 @@
 ]]></content>
       <tags>
         <tag>算法刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2025/05/07/test/</url>
-    <content><![CDATA[<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-]]></content>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客优化</title>
-    <url>/2025/05/07/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/</url>
-    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h3><p>要求: 在该状态下希望使用免费的CDN</p>
-<p>参考内容:</p>
-<p><a class="link"   href="https://adaning.github.io/posts/42790.html#toc-heading-9" >Hexo博客优化<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<p><a class="link"   href="https://www.jsdelivr.com/" >jsDelivr<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h3><h4 id="一般文章的Typora的图片插入"><a href="#一般文章的Typora的图片插入" class="headerlink" title="一般文章的Typora的图片插入"></a>一般文章的Typora的图片插入</h4><p>参考文献:</p>
-<p><a class="link"   href="https://yunjic.cn/2023/07/29/Hexo%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F/" >Hexo更优雅的图片插入方式<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h4 id="网络地址logo图片"><a href="#网络地址logo图片" class="headerlink" title="网络地址logo图片"></a>网络地址logo图片</h4>]]></content>
-      <tags>
-        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -113,6 +85,34 @@
 ]]></content>
       <tags>
         <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2025/05/07/test/</url>
+    <content><![CDATA[<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客优化</title>
+    <url>/2025/05/07/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/</url>
+    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h3><p>要求: 在该状态下希望使用免费的CDN</p>
+<p>参考内容:</p>
+<p><a class="link"   href="https://adaning.github.io/posts/42790.html#toc-heading-9" >Hexo博客优化<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<p><a class="link"   href="https://www.jsdelivr.com/" >jsDelivr<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h3><h4 id="一般文章的Typora的图片插入"><a href="#一般文章的Typora的图片插入" class="headerlink" title="一般文章的Typora的图片插入"></a>一般文章的Typora的图片插入</h4><p>参考文献:</p>
+<p><a class="link"   href="https://yunjic.cn/2023/07/29/Hexo%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F/" >Hexo更优雅的图片插入方式<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h4 id="网络地址logo图片"><a href="#网络地址logo图片" class="headerlink" title="网络地址logo图片"></a>网络地址logo图片</h4>]]></content>
+      <tags>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
