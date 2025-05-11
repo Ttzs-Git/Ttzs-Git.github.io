@@ -84,9 +84,29 @@
 <ul>
 <li>题解2: 使用数组和循环避免了我的超长部分(使用**&#x2F;和***)</li>
 </ul>
+<h3 id="HDU-2023"><a href="#HDU-2023" class="headerlink" title="HDU 2023"></a>HDU 2023</h3><p>我的痛，在这儿卡了好久，感觉思路没有啥问题，但是g++编译器过不了。最后全部用vector写的，C++编译器过了</p>
+<p>感悟:</p>
+<ul>
+<li>写标准的C++语法，不适用变长数组</li>
+</ul>
 <h3 id="HDU-2024"><a href="#HDU-2024" class="headerlink" title="HDU 2024"></a>HDU 2024</h3><p>题解一二都没考虑标识符不能是关键字。</p>
-<h3 id="HDU-2025"><a href="#HDU-2025" class="headerlink" title="HDU 2025"></a>HDU 2025</h3><p>推荐len来做</p>
-<p>同时，发现C++11语法for()</p>
+<h3 id="HDU-2025"><a href="#HDU-2025" class="headerlink" title="HDU 2025"></a>HDU 2025</h3><p>推荐len来做,推荐使用for的auto &amp;st:string</p>
+<h3 id="HDU-2026"><a href="#HDU-2026" class="headerlink" title="HDU 2026"></a>HDU 2026</h3><ul>
+<li>题解一: i !&#x3D; 0 &amp;&amp; s[i - 1] &#x3D;&#x3D; ‘ ‘–值得我学习</li>
+</ul>
+<h3 id="HDU-2027"><a href="#HDU-2027" class="headerlink" title="HDU 2027"></a>HDU 2027</h3><p>注意getchar()放在循环体内还循环体外的区别</p>
+<h3 id="HDU-2028"><a href="#HDU-2028" class="headerlink" title="HDU 2028"></a>HDU 2028</h3><p>关键在于 <strong>long long</strong></p>
+<ul>
+<li>题解一: #define int long long</li>
+</ul>
+<h3 id="HDU-2030"><a href="#HDU-2030" class="headerlink" title="HDU 2030"></a>HDU 2030</h3><p>汉字编码的时候字节首位是1，即&lt;0;</p>
+<p>我的电脑汉字占用3个字节，评测机是2个字节</p>
+<h3 id="HDU-2031"><a href="#HDU-2031" class="headerlink" title="HDU 2031"></a>HDU 2031</h3><ul>
+<li>题解一: 栈+递归</li>
+</ul>
+<h3 id="HDU-2032"><a href="#HDU-2032" class="headerlink" title="HDU 2032"></a>HDU 2032</h3><ul>
+<li>题解一二: 暴力生成，然后按照指示输出</li>
+</ul>
 <h2 id="总结"><a href="#总结" class="headerlink" title="##总结"></a>##总结</h2><ol>
 <li>可控输入</li>
 </ol>
@@ -138,6 +158,20 @@
       </tags>
   </entry>
   <entry>
+    <title>博客优化</title>
+    <url>/2025/05/07/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/</url>
+    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h3><p>要求: 在该状态下希望使用免费的CDN</p>
+<p>参考内容:</p>
+<p><a class="link"   href="https://adaning.github.io/posts/42790.html#toc-heading-9" >Hexo博客优化<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<p><a class="link"   href="https://www.jsdelivr.com/" >jsDelivr<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h3><h4 id="一般文章的Typora的图片插入"><a href="#一般文章的Typora的图片插入" class="headerlink" title="一般文章的Typora的图片插入"></a>一般文章的Typora的图片插入</h4><p>参考文献:</p>
+<p><a class="link"   href="https://yunjic.cn/2023/07/29/Hexo%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F/" >Hexo更优雅的图片插入方式<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h4 id="网络地址logo图片"><a href="#网络地址logo图片" class="headerlink" title="网络地址logo图片"></a>网络地址logo图片</h4>]]></content>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2025/03/25/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
@@ -170,20 +204,6 @@
 ]]></content>
       <tags>
         <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客优化</title>
-    <url>/2025/05/07/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/</url>
-    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h3><p>要求: 在该状态下希望使用免费的CDN</p>
-<p>参考内容:</p>
-<p><a class="link"   href="https://adaning.github.io/posts/42790.html#toc-heading-9" >Hexo博客优化<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<p><a class="link"   href="https://www.jsdelivr.com/" >jsDelivr<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h3><h4 id="一般文章的Typora的图片插入"><a href="#一般文章的Typora的图片插入" class="headerlink" title="一般文章的Typora的图片插入"></a>一般文章的Typora的图片插入</h4><p>参考文献:</p>
-<p><a class="link"   href="https://yunjic.cn/2023/07/29/Hexo%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F/" >Hexo更优雅的图片插入方式<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h4 id="网络地址logo图片"><a href="#网络地址logo图片" class="headerlink" title="网络地址logo图片"></a>网络地址logo图片</h4>]]></content>
-      <tags>
-        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
