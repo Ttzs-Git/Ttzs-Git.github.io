@@ -117,6 +117,25 @@
 <h3 id="HDU-2035"><a href="#HDU-2035" class="headerlink" title="HDU 2035"></a>HDU 2035</h3><ul>
 <li>题解一: 使* 和 % 进行迭代，非常简洁的</li>
 </ul>
+<h3 id="HDU-2036"><a href="#HDU-2036" class="headerlink" title="HDU 2036"></a>HDU 2036</h3><p>我的思路是分解多边形+海伦公式，最后WA。提醒:海伦公式对于非凸四边形的计算有难度(如: 五角星)</p>
+<ul>
+<li>题解一: 多边形面积公式(分析:<a class="link"   href="https://blog.csdn.net/dengjing1200/article/details/102404012" >hdu 2036(多边形面积公式）-CSDN博客<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="D:\github\Ttzs-Git.github.io\source_posts\HDU-100-两个月挑战\image-20250514151941109.png"
+                      alt="image-20250514151941109"
+                ></p>
+<h3 id="HDU-2037"><a href="#HDU-2037" class="headerlink" title="HDU 2037"></a>HDU 2037</h3><p>我的思路是使用开头的时间排序，可能造成一个有空隙，选择总长度较长的选择。建议: 使用结束时间排序</p>
+<ul>
+<li>题解一推荐阅读</li>
+</ul>
+<h3 id="HDU-2038"><a href="#HDU-2038" class="headerlink" title="HDU 2038"></a>HDU 2038</h3><p>没有HDU 2038</p>
+<h3 id="HDU-2039"><a href="#HDU-2039" class="headerlink" title="HDU 2039"></a>HDU 2039</h3><p>注意: 这是<strong>正数</strong></p>
+<h3 id="HDU-2040"><a href="#HDU-2040" class="headerlink" title="HDU 2040"></a>HDU 2040</h3><p><strong>真约数分布在a&#x2F;2的左侧或者分布在sqrt(a)的两侧</strong></p>
+<h3 id="HDU-2041"><a href="#HDU-2041" class="headerlink" title="HDU 2041"></a>HDU 2041</h3><p>本题递归不会超时(我的代码没有超时)</p>
+<p>题解一二都是打表完成</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><h3 id="条件输入"><a href="#条件输入" class="headerlink" title="条件输入"></a>条件输入</h3><ul>
 <li><p>cin&gt;&gt;a</p>
 </li>
@@ -133,9 +152,29 @@
 </ul>
 <h3 id="set"><a href="#set" class="headerlink" title="set"></a>set</h3><p>set的抽象含义: 一个<strong>自动排序</strong>且<strong>不含重复元素</strong>的容器</p>
 <p>set的访问: 仅支持迭代器的使用且不支持&lt; &gt;等元素符号</p>
+<h3 id="HDU-2037和HDU-2021的共同点"><a href="#HDU-2037和HDU-2021的共同点" class="headerlink" title="HDU 2037和HDU 2021的共同点"></a>HDU 2037和HDU 2021的共同点</h3><p>贪心算法: </p>
+<ul>
+<li>局部最优导致全局最优解</li>
+<li>预处理: 合理的排序</li>
+<li>线性遍历即可完成决策</li>
+</ul>
 ]]></content>
       <tags>
         <tag>算法刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2025/05/07/test/</url>
+    <content><![CDATA[<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+]]></content>
+      <tags>
+        <tag>test</tag>
       </tags>
   </entry>
   <entry>
@@ -157,42 +196,6 @@
 ]]></content>
       <tags>
         <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2025/05/07/test/</url>
-    <content><![CDATA[<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-]]></content>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>how to study 1</title>
-    <url>/2025/03/26/how-to-study-1/</url>
-    <content><![CDATA[<p>Actually,I don’t know how to study. When I study CS61A and meet some problems which I can’t solve it quickly, I will feel irritable. Perhaps for my characters, it is quick to study from 0 to 1 due to interest. But, the subsequent courses are difficult and hard to stay clam to study them. </p>
-<p>So, I determined to change it by some ways and write here to be a reminder for me.</p>
-<ul>
-<li><p>First of all ,i shouldn’t care too much about whether to learn all the courses for perfectionism and choose what is suitable for me. <strong>What matters is that learn the knowledge all not the courses all</strong> .</p>
-</li>
-<li><p>Secondly,to improve the efficiency of learning , <strong>read the preview materials</strong> before studying specially the CS. If I can <strong>finish the homework or lab</strong> <strong>or discussion well</strong>, it means I can skip this lesson. If it is hard for me to read it ,why not listen to it obediently?</p>
-</li>
-<li><p>Thirdly, how to learn by book ,read it ,rewrite the codes,try to change it ,and finally finish the practices.</p>
-</li>
-</ul>
-<p>Someone perhaps ask me if i still be unknown to this knowledge after learning the course. It is useful for us to ask GAI like QwQ and so on.</p>
-<p>It is a good choice to select a major course until you learn it down.</p>
-<p>Hope you and me have a good studying experience.</p>
-<p>Good luck! </p>
-]]></content>
-      <tags>
-        <tag>Misc-talk</tag>
       </tags>
   </entry>
   <entry>
@@ -236,20 +239,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客优化</title>
-    <url>/2025/05/07/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/</url>
-    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h3><p>要求: 在该状态下希望使用免费的CDN</p>
-<p>参考内容:</p>
-<p><a class="link"   href="https://adaning.github.io/posts/42790.html#toc-heading-9" >Hexo博客优化<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<p><a class="link"   href="https://www.jsdelivr.com/" >jsDelivr<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h3><h4 id="一般文章的Typora的图片插入"><a href="#一般文章的Typora的图片插入" class="headerlink" title="一般文章的Typora的图片插入"></a>一般文章的Typora的图片插入</h4><p>参考文献:</p>
-<p><a class="link"   href="https://yunjic.cn/2023/07/29/Hexo%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F/" >Hexo更优雅的图片插入方式<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h4 id="网络地址logo图片"><a href="#网络地址logo图片" class="headerlink" title="网络地址logo图片"></a>网络地址logo图片</h4>]]></content>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>建站历程1</title>
     <url>/2025/05/07/%E5%BB%BA%E7%AB%99%E5%8E%86%E7%A8%8B/</url>
     <content><![CDATA[<h2 id="历程"><a href="#历程" class="headerlink" title="历程"></a>历程</h2><p>我从去年12月左右开始建站，兜兜转转，中途放弃又捡起，放弃又捡起。</p>
@@ -267,6 +256,42 @@
 </ol>
 <p>还有，但是记不得了，以后再补</p>
 ]]></content>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>how to study 1</title>
+    <url>/2025/03/26/how-to-study-1/</url>
+    <content><![CDATA[<p>Actually,I don’t know how to study. When I study CS61A and meet some problems which I can’t solve it quickly, I will feel irritable. Perhaps for my characters, it is quick to study from 0 to 1 due to interest. But, the subsequent courses are difficult and hard to stay clam to study them. </p>
+<p>So, I determined to change it by some ways and write here to be a reminder for me.</p>
+<ul>
+<li><p>First of all ,i shouldn’t care too much about whether to learn all the courses for perfectionism and choose what is suitable for me. <strong>What matters is that learn the knowledge all not the courses all</strong> .</p>
+</li>
+<li><p>Secondly,to improve the efficiency of learning , <strong>read the preview materials</strong> before studying specially the CS. If I can <strong>finish the homework or lab</strong> <strong>or discussion well</strong>, it means I can skip this lesson. If it is hard for me to read it ,why not listen to it obediently?</p>
+</li>
+<li><p>Thirdly, how to learn by book ,read it ,rewrite the codes,try to change it ,and finally finish the practices.</p>
+</li>
+</ul>
+<p>Someone perhaps ask me if i still be unknown to this knowledge after learning the course. It is useful for us to ask GAI like QwQ and so on.</p>
+<p>It is a good choice to select a major course until you learn it down.</p>
+<p>Hope you and me have a good studying experience.</p>
+<p>Good luck! </p>
+]]></content>
+      <tags>
+        <tag>Misc-talk</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客优化</title>
+    <url>/2025/05/07/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/</url>
+    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h3><p>要求: 在该状态下希望使用免费的CDN</p>
+<p>参考内容:</p>
+<p><a class="link"   href="https://adaning.github.io/posts/42790.html#toc-heading-9" >Hexo博客优化<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<p><a class="link"   href="https://www.jsdelivr.com/" >jsDelivr<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h3><h4 id="一般文章的Typora的图片插入"><a href="#一般文章的Typora的图片插入" class="headerlink" title="一般文章的Typora的图片插入"></a>一般文章的Typora的图片插入</h4><p>参考文献:</p>
+<p><a class="link"   href="https://yunjic.cn/2023/07/29/Hexo%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F/" >Hexo更优雅的图片插入方式<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h4 id="网络地址logo图片"><a href="#网络地址logo图片" class="headerlink" title="网络地址logo图片"></a>网络地址logo图片</h4>]]></content>
       <tags>
         <tag>blog</tag>
       </tags>
