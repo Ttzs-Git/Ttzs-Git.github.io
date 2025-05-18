@@ -136,6 +136,43 @@
 <h3 id="HDU-2040"><a href="#HDU-2040" class="headerlink" title="HDU 2040"></a>HDU 2040</h3><p><strong>真约数分布在a&#x2F;2的左侧或者分布在sqrt(a)的两侧</strong></p>
 <h3 id="HDU-2041"><a href="#HDU-2041" class="headerlink" title="HDU 2041"></a>HDU 2041</h3><p>本题递归不会超时(我的代码没有超时)</p>
 <p>题解一二都是打表完成</p>
+<h3 id="HDU-2044"><a href="#HDU-2044" class="headerlink" title="HDU 2044"></a>HDU 2044</h3><p>本题尤其注意兔子数列的增速，大约40+的时候就超出了int，需要设置为long long</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="D:\github\Ttzs-Git.github.io\source_posts\HDU-100-两个月挑战\image-20250515162059074.png"
+                      alt="image-20250515162059074"
+                ></p>
+<h3 id="HDU-2045"><a href="#HDU-2045" class="headerlink" title="HDU 2045"></a>HDU 2045</h3><p>本题–需要递归的思考方式，但是递归会TLE，所以要写迭代的，同时，要开long long</p>
+<h3 id="HDU-2046"><a href="#HDU-2046" class="headerlink" title="HDU 2046"></a>HDU 2046</h3><p>本题的迭代关系是fib的关系。</p>
+<p>s(n)表示2*n的方案。铺骨牌的方式由两种竖着铺一张和横着铺两张。因此s(n)&#x3D;s(n-1)*1+s(n-2)*2;</p>
+<h3 id="HDU-2047"><a href="#HDU-2047" class="headerlink" title="HDU 2047"></a>HDU 2047</h3><p>本题的迭代关系时f(n)&#x3D;f(n-1)*2+f(n-2)*2.通过将最后一位是非为O，进行分类计算</p>
+<h3 id="HDU-2048"><a href="#HDU-2048" class="headerlink" title="HDU 2048"></a>HDU 2048</h3><p><strong>错位排列</strong></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="D:\github\Ttzs-Git.github.io\source_posts\HDU-100-两个月挑战\image-20250518184611571.png"
+                      alt="image-20250518184611571"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="D:\github\Ttzs-Git.github.io\source_posts\HDU-100-两个月挑战\image-20250518184740228.png"
+                      alt="image-20250518184740228"
+                ></p>
+<h3 id="HDU-2049"><a href="#HDU-2049" class="headerlink" title="HDU 2049"></a>HDU 2049</h3><p>本体与上一题类似进加入一个组合数的运算</p>
+<p>由于后续的答案较大，容易造成溢出，然后WA</p>
+<h3 id="HDU-2050"><a href="#HDU-2050" class="headerlink" title="HDU 2050"></a>HDU 2050</h3><p>直线问题:</p>
+<ul>
+<li>内部区域的个数1+2+3+….+N-2</li>
+<li>外部区域的个数2*N</li>
+<li>总个数(N*N+N)&#x2F;2+1</li>
+</ul>
+<p>折线问题:(n是折线的个数)</p>
+<ul>
+<li>个数: f(n)&#x3D;f(n-1)+4(n-1)+1;</li>
+<li>zn*n-n+1</li>
+</ul>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><h3 id="条件输入"><a href="#条件输入" class="headerlink" title="条件输入"></a>条件输入</h3><ul>
 <li><p>cin&gt;&gt;a</p>
 </li>
@@ -157,6 +194,11 @@
 <li>局部最优导致全局最优解</li>
 <li>预处理: 合理的排序</li>
 <li>线性遍历即可完成决策</li>
+</ul>
+<h3 id="四舍五入-两位小数"><a href="#四舍五入-两位小数" class="headerlink" title="四舍五入(两位小数)"></a>四舍五入(两位小数)</h3><ul>
+<li>printf(“%..f”)</li>
+<li>int((a*100+0.5)&#x2F;100)</li>
+<li>&lt;&lt; setprecision(2) &lt;&lt;</li>
 </ul>
 ]]></content>
       <tags>
@@ -247,6 +289,34 @@
       </tags>
   </entry>
   <entry>
+    <title>test</title>
+    <url>/2025/05/07/test/</url>
+    <content><![CDATA[<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客优化</title>
+    <url>/2025/05/07/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/</url>
+    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h3><p>要求: 在该状态下希望使用免费的CDN</p>
+<p>参考内容:</p>
+<p><a class="link"   href="https://adaning.github.io/posts/42790.html#toc-heading-9" >Hexo博客优化<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<p><a class="link"   href="https://www.jsdelivr.com/" >jsDelivr<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h3><h4 id="一般文章的Typora的图片插入"><a href="#一般文章的Typora的图片插入" class="headerlink" title="一般文章的Typora的图片插入"></a>一般文章的Typora的图片插入</h4><p>参考文献:</p>
+<p><a class="link"   href="https://yunjic.cn/2023/07/29/Hexo%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F/" >Hexo更优雅的图片插入方式<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h4 id="网络地址logo图片"><a href="#网络地址logo图片" class="headerlink" title="网络地址logo图片"></a>网络地址logo图片</h4>]]></content>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>建站历程1</title>
     <url>/2025/05/07/%E5%BB%BA%E7%AB%99%E5%8E%86%E7%A8%8B/</url>
     <content><![CDATA[<h2 id="历程"><a href="#历程" class="headerlink" title="历程"></a>历程</h2><p>我从去年12月左右开始建站，兜兜转转，中途放弃又捡起，放弃又捡起。</p>
@@ -266,34 +336,6 @@
 ]]></content>
       <tags>
         <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客优化</title>
-    <url>/2025/05/07/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/</url>
-    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h3><p>要求: 在该状态下希望使用免费的CDN</p>
-<p>参考内容:</p>
-<p><a class="link"   href="https://adaning.github.io/posts/42790.html#toc-heading-9" >Hexo博客优化<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<p><a class="link"   href="https://www.jsdelivr.com/" >jsDelivr<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h3><h4 id="一般文章的Typora的图片插入"><a href="#一般文章的Typora的图片插入" class="headerlink" title="一般文章的Typora的图片插入"></a>一般文章的Typora的图片插入</h4><p>参考文献:</p>
-<p><a class="link"   href="https://yunjic.cn/2023/07/29/Hexo%E6%9B%B4%E4%BC%98%E9%9B%85%E7%9A%84%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F/" >Hexo更优雅的图片插入方式<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h4 id="网络地址logo图片"><a href="#网络地址logo图片" class="headerlink" title="网络地址logo图片"></a>网络地址logo图片</h4>]]></content>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2025/05/07/test/</url>
-    <content><![CDATA[<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-]]></content>
-      <tags>
-        <tag>test</tag>
       </tags>
   </entry>
 </search>
